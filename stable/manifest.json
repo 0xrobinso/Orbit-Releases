@@ -1,0 +1,22 @@
+{
+  "app_id": "com.spaceshipgames.orbit.terminal",
+  "channel": "stable",
+  "compatibility": {
+    "arch": "x64",
+    "min_installed_version": null,
+    "os": "windows"
+  },
+  "entry_exe": "OrbitV1.0.1.exe",
+  "min_updater_version": "1.0.0",
+  "package": {
+    "sha256": "26a0b2c1009e180b7fe64653af9166e2f3f28f94c63dc2cc28a9809af3cf55f1",
+    "size_bytes": 82247671,
+    "url": "https://0xrobinso.github.io/Orbit-Releases/stable/orbit-1.0.1.zip"
+  },
+  "release_notes": "Orbit 1.0.1 release",
+  "released_at": "2026-11-10T16:17:09Z",
+  "required": false,
+  "schema_version": 1,
+  "sequence": 1,
+  "version": "1.0.1"
+}
