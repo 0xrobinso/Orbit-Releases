@@ -6,17 +6,17 @@
     "min_installed_version": null,
     "os": "windows"
   },
-  "entry_exe": "OrbitV1.0.1.exe",
+  "entry_exe": "Orbit.exe",
   "min_updater_version": "1.0.0",
   "package": {
-    "sha256": "26a0b2c1009e180b7fe64653af9166e2f3f28f94c63dc2cc28a9809af3cf55f1",
-    "size_bytes": 82247671,
-    "url": "https://0xrobinso.github.io/Orbit-Releases/stable/orbit-1.0.1.zip"
+    "sha256": "f9aa05efa955cfbad270dca242f5c2cd938889f4c7a2144ab9011bc2a68741d3",
+    "size_bytes": 113471673,
+    "url": "https://github.com/0xrobinso/Orbit-Releases/releases/download/v1.31.4/orbit-1.31.4.zip"
   },
-  "release_notes": "Orbit 1.0.1 release",
-  "released_at": "2026-11-10T16:17:09Z",
+  "release_notes": "Orbit 1.31.4 refreshes the branding and status splash, authentication screen, and live bet cards, including clearing settled results when a new round begins.",
+  "released_at": "2026-11-11T00:50:46Z",
   "required": false,
   "schema_version": 1,
-  "sequence": 1,
-  "version": "1.0.1"
+  "sequence": 2,
+  "version": "1.31.4"
 }
