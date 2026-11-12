@@ -1,7 +1,41 @@
 <!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Orbit Updates</title>
-<p>Orbit update feed.</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d1c">
+  <title>Orbit for Windows</title>
+  <style>
+    :root { color-scheme: dark; --ink:#f4f6ff; --muted:#a9b2ce; --line:#28304a; --blue:#8db8ff; --mint:#83f0d0; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:32px 18px; color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; background:radial-gradient(ellipse at 50% -20%,#243867 0,transparent 55%),linear-gradient(145deg,#090d1c,#10152a 60%,#0a1222); }
+    main { width:min(100%,760px); border:1px solid var(--line); border-radius:24px; padding:clamp(28px,6vw,56px); background:rgba(12,17,35,.86); box-shadow:0 28px 100px #0008; }
+    .eyebrow { margin:0 0 14px; color:var(--mint); text-transform:uppercase; letter-spacing:.18em; font-size:.76rem; font-weight:700; }
+    h1 { margin:0; font-size:clamp(2.4rem,7vw,4.5rem); line-height:1.02; letter-spacing:-.055em; }
+    .lead { max-width:56ch; margin:20px 0 30px; color:var(--muted); font-size:1.1rem; }
+    .download { display:inline-flex; align-items:center; gap:12px; padding:14px 20px; border-radius:12px; background:linear-gradient(110deg,#84aaff,#91f1d4); color:#08111e; font-weight:800; text-decoration:none; box-shadow:0 8px 28px #83c5ff35; }
+    .download:hover { filter:brightness(1.08); transform:translateY(-1px); }
+    .meta { margin:12px 0 30px; color:#b9c3df; font-size:.9rem; }
+    .note { margin-top:28px; border-top:1px solid var(--line); padding-top:22px; color:var(--muted); font-size:.94rem; }
+    .note strong { color:var(--ink); }
+    code { color:#dbe6ff; }
+    a.secondary { color:var(--blue); }
+    footer { margin-top:32px; color:#74809f; font-size:.82rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Spaceship Games · Windows x64</p>
+    <h1>Orbit<br>Terminal</h1>
+    <p class="lead">Install Orbit and its background updater. The launcher checks the stable update feed, verifies releases, and stages updates safely.</p>
+    <a class="download" href="https://github.com/0xrobinso/Orbit-Releases/releases/download/v1.31.52/Orbit-Setup-v1.31.52.zip">Get full Windows setup <span aria-hidden="true">↓</span></a>
+    <p class="meta">Version 1.31.52 · Windows x64 · SHA-256: <code>c5ae3c9b9a1d2e9217a30d81a9b7f5fa1c99bbaacbb79891451cb68c5b0d90cf</code></p>
+    <section class="note" aria-label="Package details">
+      <p><strong>Install:</strong> Extract the entire ZIP, run <code>Install-Orbit.cmd</code>, then start Orbit from the desktop shortcut it creates.</p>
+      <p>Check the package hash against the <a class="secondary" href="./Orbit-Setup-v1.31.52.sha256">SHA-256 checksum file</a>.</p>
+      <p>The Windows executables are not Authenticode-signed, so Windows may show a publisher warning.</p>
+    </section>
+    <footer>Orbit Terminal · stable release</footer>
+  </main>
+</body>
 </html>
