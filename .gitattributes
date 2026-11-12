@@ -1,0 +1,2 @@
+# Signed files must never be line-ending converted by git.
+* -text

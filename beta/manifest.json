@@ -1,0 +1,26 @@
+{
+  "app_id": "com.spaceshipgames.orbit.terminal",
+  "channel": "beta",
+  "compatibility": {
+    "arch": "x64",
+    "min_installed_version": null,
+    "os": "windows"
+  },
+  "entry_exe": "Orbit.exe",
+  "min_updater_version": "1.0.0",
+  "package": {
+    "sha256": "ea049e6045113e5a252282a421625d12750f0c9c1d861185544a260c37993b3f",
+    "size_bytes": 82690496,
+    "url": "https://github.com/0xrobinso/Orbit-Releases/releases/download/v1.31.53-beta.1/orbit-1.31.53-beta.1.zip"
+  },
+  "release_notes": "Beta updater package for validation. Use the beta launcher asset with the local launcher.json channel set to beta and the beta manifest URL.",
+  "released_at": "2026-11-12T10:39:03Z",
+  "required": false,
+  "required_files": [
+    "windows_raw_mouse.release.x86_64.dll",
+    "libmulti_mouse.windows.template_release.x86_64.dll"
+  ],
+  "schema_version": 1,
+  "sequence": 1,
+  "version": "1.31.53-beta.1"
+}
